@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('One') {
                 steps {
-                        echo 'Hi, this is for learning'
+                        echo 'Hi, this is for the demo'
 			
                 }
         }
@@ -23,12 +23,6 @@ pipeline {
 			echo "Hello"
                         }
         }
-       
-				steps {
-					echo 'Running the integration test..'
-				}
-                               
-			}  }
-        
     }
+    
 }
